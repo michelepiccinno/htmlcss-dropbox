@@ -1,0 +1,33 @@
+:root {
+  --color-primary: #b4d0e7;
+  --color-secondary: #000000;
+  --color-bckg-btn: #0061ff;
+  --section-padding: 40px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+.container {
+  max-width: 920px;
+  margin: 0 auto;
+}
+
+.container-xl {
+  max-width: 1200px;
+}
+
+
+
+
+
+
+
+/* COME RICHIAMARE LE VARIABILI 
+div {
+  color: var(--color-secondary);
+}*/
