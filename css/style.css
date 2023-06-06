@@ -59,8 +59,11 @@
   flex-basis: 50%;
 }
 
-.square-container {
+.squares-container {
   width: 100vw;
+}
+/*--------------------*/
+.row {
   display: flex;
 }
 
