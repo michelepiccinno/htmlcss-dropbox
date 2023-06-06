@@ -48,7 +48,15 @@
 }
 
 .col-33 {
-  flex-basis: 33.3%;
+  flex-basis: 33.33%;
+}
+
+.col-32 {
+  flex-basis: 32%;
+}
+
+.gap {
+  gap: 2%;
 }
 
 .row-100 {
@@ -67,7 +75,9 @@
   display: flex;
 }
 
-
+footer ul {
+  width: 20%;
+}
 
 
 /* COME RICHIAMARE LE VARIABILI 
