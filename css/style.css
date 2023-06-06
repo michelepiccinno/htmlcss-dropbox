@@ -2,25 +2,48 @@
   --color-primary: #b4d0e7;
   --color-secondary: #000000;
   --color-bckg-btn: #0061ff;
-  --section-padding: 40px;
+  --padding-container-default: 40px 0;
 }
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  border: 1px dashed green;
 }
 
 
 .container {
   max-width: 920px;
   margin: 0 auto;
+  padding: var(--padding-container-default);
 }
 
 .container-xl {
   max-width: 1200px;
 }
 
+.nav-container {
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  padding: 25px;
+}
+
+.nav-sx,
+.nav-dx {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.container-xl .box {
+  display: flex;
+}
+
+.box {
+  display: flex;
+}
 
 
 
