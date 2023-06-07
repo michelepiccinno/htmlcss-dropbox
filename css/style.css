@@ -18,21 +18,25 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+header section {
+  background-color: var(--color-primary);
+}
+
 section {
   padding: var(--padding-container-default);
 }
 
 .container {
-  max-width: 920px;
+  max-width: 900px;
   margin: 0 auto;
 }
 
 .container-xl {
-  max-width: 1200px;
+  max-width: 1100px;
 }
 
 .nav-container {
-  width: 98.4vw;       /*RISOLVERE QUESTO PROBLEMA*/
+  width: 98.4vw;      
   display: flex;
   justify-content: space-between;
 }
@@ -41,12 +45,13 @@ section {
   display: flex;
   justify-content: space-between;  
   align-items: center;
-  padding: 25px;
-  gap: 10px
+  padding: .5rem;
+  gap: 2rem;
 }
 
 a {
   text-decoration: none;
+  color: var(--color-secondary);
 }
 
 button {
@@ -55,15 +60,35 @@ button {
  color: var(--color-white);
 }
 
+.btn-margin {
+  margin: 2rem 0;
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: 900;
+}
+
+i.arrow-down {  
+  margin: 4rem 0 2rem;
+}
+
 .box {
   width: 100%;
   display: flex;
-  flex-wrap: wrap;
+}
+
+.wrapper {
+    flex-wrap: wrap;
 }
 
 .box-left {
   max-width: 35%;
 }
+
+header .jumbo-img {
+  object-fit: contain;
+} 
 
 .col-32 {
   flex-basis: 32%;
@@ -86,19 +111,10 @@ button {
 }
 
 .squares-container {
-  width: 98.4vw;         /*RISOLVERE QUESTO PROBLEMA*/
-}
-/*--------------------*/
-.row {
-  display: flex;
+  width: 98.4vw;       
 }
 
 footer ul {
   width: 20%;
 }
 
-
-/* COME RICHIAMARE LE VARIABILI 
-div {
-  color: var(--color-secondary);
-}*/
