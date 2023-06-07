@@ -48,6 +48,10 @@
   flex-wrap: wrap;
 }
 
+.box-left {
+  max-width: 35%;
+}
+
 .col-33 {
   flex-basis: 33.33%;
 }
