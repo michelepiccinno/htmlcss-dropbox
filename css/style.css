@@ -144,7 +144,7 @@ main p,label {
   flex-wrap: wrap;
 }
 
-.column-sect1, .under-sect1 {
+.column-sect1, #under-sect-1 {
   border: 1px solid #d0d0d3;
 }
 
@@ -188,12 +188,33 @@ main p,label {
   width: 50%;
 }
 
-.under-sect1 > .box-left {
+#under-sect-1 > .box-left {
   flex-grow: 10;
 }
 
-.under-sect1 > .box-right {
+#under-sect-1 > .box-right {
   flex-grow: 1;
+}
+
+
+
+
+
+
+
+
+
+#main-sect-2 > .left {
+  flex-grow: 1;
+}
+
+#main-sect-2 > .right {
+  flex-grow: 1;
+}
+
+#main-sect-2 > .left > img {
+  object-fit: contain;
+  width: 100%;
 }
 
 .squares-container {
