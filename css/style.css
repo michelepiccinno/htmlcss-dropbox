@@ -86,8 +86,20 @@ i.arrow-down {
   max-width: 35%;
 }
 
+header > section {
+  padding-bottom: 0;
+}
+
+header .box-right {
+  position: relative;
+}
+
 header .jumbo-img {
   object-fit: contain;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
 } 
 
 .col-32 {
