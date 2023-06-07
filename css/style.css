@@ -70,7 +70,7 @@ h1 {
 }
 
 i.arrow-down {  
-  margin: 4rem 0 2rem;
+  margin: 6rem 0 6rem;
 }
 
 .box {
@@ -90,8 +90,17 @@ header > section {
   padding-bottom: 0;
 }
 
+header section .container {
+margin-bottom: -4.5rem;
+}
+
+main section .container:first-child {
+  margin-top: 5.5rem;
+}
+
 header .box-right {
   position: relative;
+  width: 100%;
 }
 
 header .jumbo-img {
