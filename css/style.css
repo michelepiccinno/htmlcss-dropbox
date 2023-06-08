@@ -225,20 +225,25 @@ main p,label {
   display: flex;
   flex-wrap: wrap;
   width: calc(100% / 3);
-  aspect-ratio: 1 / 1;
 }
 
 .square {
   display: flex;
   justify-content: center;
-  align-content: center;
   width: 50%;
+  aspect-ratio: 1 / 1;
   border: 1px dashed red;
+  background-color: #a2d39b;
+  border: 10px solid transparent;
 }
 
 .square svg {
   width: 70%;
   height: auto;
+}
+
+.square:hover {
+  border-color: #d1e9cd;
 }
 
 
