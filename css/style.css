@@ -190,20 +190,12 @@ main p,label {
   border-color: #d0d0d3;
 }
 
-.width-33 {
-  width: 33.33%;
-}
-
 .gap2 {
   gap: 2%;
 }
 
 .width-100 {
   width: 100%;
-}
-
-.width-50 {
-  width: 50%;
 }
 
 #under-sect-1 > .box-left { 
@@ -222,9 +214,76 @@ main p,label {
   flex-basis: 35%;
 }
 
+
+
+
+
+
+
+
 .squares-container {
-  width: 98.4vw;       
+  border: 1px dashed green;
+  display: flex;
 }
+
+
+.square-box {
+  border: 1px dashed blue;
+  display: flex;
+  flex-wrap: wrap;
+  width: calc(100% / 3);
+  aspect-ratio: 1 / 1;
+
+}
+
+.square {
+  border: 1px dashed red;
+  width: 50%;
+  aspect-ratio: 1 / 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 footer ul {
   width: 20%;
