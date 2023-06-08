@@ -214,12 +214,7 @@ main p,label {
   flex-basis: 35%;
 }
 
-
-
-
-
-
-
+/*************SQUARE CLASSES******************************************/
 
 .squares-container {
   border: 1px dashed green;
@@ -233,7 +228,6 @@ main p,label {
   flex-wrap: wrap;
   width: calc(100% / 3);
   aspect-ratio: 1 / 1;
-
 }
 
 .square {
@@ -242,48 +236,13 @@ main p,label {
   aspect-ratio: 1 / 1;
 }
 
+.square img {
+  object-fit: contain;
+  width: 100%;
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*******************************************************************/
 
 footer ul {
   width: 20%;
