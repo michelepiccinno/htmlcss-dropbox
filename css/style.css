@@ -206,7 +206,7 @@ main p,label {
   width: 50%;
 }
 
-#under-sect-1 > .box-left {
+#under-sect-1 > .box-left { 
   flex-grow: 10;
 }
 
