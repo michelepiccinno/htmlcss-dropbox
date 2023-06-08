@@ -233,7 +233,6 @@ main p,label {
   width: 50%;
   aspect-ratio: 1 / 1;
   border: 1px dashed red;
-  background-color: #a2d39b;
   border: 10px solid transparent;
 }
 
@@ -242,9 +241,17 @@ main p,label {
   height: auto;
 }
 
-.square:hover {
+/*BOX 1*/
+.designit {
+background-color: #a2d39b;
+}
+
+.designit:hover {
   border-color: #d1e9cd;
 }
+
+
+
 
 
 
