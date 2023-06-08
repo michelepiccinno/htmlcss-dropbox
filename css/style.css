@@ -255,10 +255,10 @@ width: 100%;
 
 footer {
   background-color: var(--color-secondary);
+    color: var(--color-white);
 }
 
 footer ul {
-  color: var(--color-white);
   list-style: none;
   margin-bottom: 2rem;
 }
@@ -272,7 +272,11 @@ footer h3 {
 }
 
 footer hr {
-  width: 15%;
+  width: 120px;
+  border-color: #ffffff;
+  margin: 4rem 0;
+}
+
+.footer-end {
   color: #ffffff;
-  margin-top: 4rem;
 }
