@@ -217,13 +217,11 @@ main p,label {
 /*************SQUARE CLASSES******************************************/
 
 .squares-container {
-  border: 1px dashed green;
   display: flex;
 }
 
 
 .square-box {
-  border: 1px dashed blue;
   display: flex;
   flex-wrap: wrap;
   width: calc(100% / 3);
@@ -231,15 +229,19 @@ main p,label {
 }
 
 .square {
-  border: 1px dashed red;
+  display: flex;
+  justify-content: center;
+  align-content: center;
   width: 50%;
-  aspect-ratio: 1 / 1;
+  border: 1px dashed red;
 }
 
-.square img {
-  object-fit: contain;
-  width: 100%;
+.square svg {
+  width: 70%;
+  height: auto;
 }
+
+
 
 
 /*******************************************************************/
@@ -298,3 +300,4 @@ footer hr {
 .footer-end {
   color: #ffffff;
 }
+
