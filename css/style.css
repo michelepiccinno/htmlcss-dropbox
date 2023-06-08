@@ -241,7 +241,7 @@ main p,label {
   height: auto;
 }
 
-/*BOX 1*/
+/*BOX SQUARE 1*/
 .designit {
 background-color: #a2d39b;
 }
@@ -250,11 +250,68 @@ background-color: #a2d39b;
   border-color: #d1e9cd;
 }
 
+/*BOX SQUARE 2*/
+.asu {
+  background-color: #61082b;
+  }
+  
+.asu:hover {
+  border-color: #6d4b58;
+}
 
+/*BOX SQUARE 3*/
+.florida {
+  background-color: #0093ce;
+  }
+  
+.florida:hover {
+  border-color: #75b6cf
+}
 
+/*BOX SQUARE 4*/
+.topps {
+  background-color: #ff1c1c;
+  }
+  
+.topps:hover {
+  border-color: #ff7b7b;
+}
 
+/*BOX SQUARE 5*/
+.bicycle {
+  background-color: #d5001f;
+  }
+  
+.bicycle:hover {
+  border-color: #ca7380;
+}
 
+/*BOX SQUARE 6*/
+.hearst {
+  background-color: #b4d0e7;
+  }
+  
+.hearst:hover {
+  border-color: #c5d9e7;
+}
 
+/*BOX SQUARE 7*/
+.lonely {
+  background-color: #0d2481;
+  }
+  
+.lonely:hover {
+  border-color: #404f8a;
+}
+
+/*BOX SQUARE 7*/
+.clear {
+  background-color: #ffd830;
+  }
+  
+.clear:hover {
+  border-color: #ffeb93;
+}
 
 /*******************************************************************/
 
