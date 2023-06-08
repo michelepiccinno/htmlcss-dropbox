@@ -69,6 +69,11 @@ h1 {
   font-weight: 900;
 }
 
+h2 {
+  font-size: 2rem;
+  font-weight: 800;
+}
+
 .box {
   width: 100%;
   display: flex;
@@ -124,8 +129,6 @@ header .main-box-right {
 }
 
 header .jumbo-img {
-  object-fit: contain;
-  width: 100%;
   position: absolute;
   left: 0;
   bottom: -0.3rem;
@@ -154,6 +157,10 @@ main p,label {
 
 .padding-2rem {
   padding: 2rem;
+}
+
+.padding-3rem {
+  padding: 3rem;
 }
 
 .bord-botm{
@@ -196,25 +203,12 @@ main p,label {
   flex-grow: 1;
 }
 
-
-
-
-
-
-
-
-
 #main-sect-2 > .left {
-  flex-grow: 1;
+  flex-basis: 65%;
 }
 
 #main-sect-2 > .right {
-  flex-grow: 1;
-}
-
-#main-sect-2 > .left > img {
-  object-fit: contain;
-  width: 100%;
+  flex-basis: 35%;
 }
 
 .squares-container {
@@ -225,4 +219,7 @@ footer ul {
   width: 20%;
 }
 
-
+.object-fit {
+object-fit: contain;
+width: 100%;
+}
