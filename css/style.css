@@ -4,6 +4,7 @@
   --color-bckg-btn: #0061ff;
   --color-white: white;
   --color-third: #61082b;
+  --color-check: #0061ff;
   --padding-container-default: 40px 0;
   
 }
@@ -57,9 +58,10 @@ header a {
 }
 
 button {
- padding: .4rem .7rem;
+ padding: .6rem 1rem;
  background-color: var(--color-bckg-btn);
  color: var(--color-white);
+ border: none;
 }
 
 .btn-margin {
@@ -128,7 +130,15 @@ margin-bottom: -4.5rem;
 .margin-top-55rem {
   margin-top: 5.5rem;
 }
-/*------------------*/
+
+.weight900 {
+font-weight: 900;
+}
+
+.check-color {
+  color: var(--color-check);
+}
+
 header .main-box-right {
   position: relative;
   width: 100%;
@@ -187,7 +197,7 @@ main p,label {
 
 .column-sect1 hr {
   width: 20%;
-  border-color: #d0d0d3;
+  border-color: #e1e1e3;
 }
 
 .gap2 {
@@ -198,12 +208,16 @@ main p,label {
   width: 100%;
 }
 
-#under-sect-1 > .box-left { 
-  flex-grow: 10;
+.enterprise .box-left { 
+  width: 67%;
 }
 
-#under-sect-1 > .box-right {
-  flex-grow: 1;
+.col2-btn {
+  width: 100%;
+}
+
+.enterprise .box-right {
+  width: 33%;
 }
 
 #main-sect-2 > .left {
@@ -212,6 +226,11 @@ main p,label {
 
 #main-sect-2 > .right {
   flex-basis: 35%;
+}
+
+.btn-2 {
+  background-color: var(--color-white);
+  color: black;
 }
 
 /*************SQUARE CLASSES******************************************/
@@ -234,6 +253,7 @@ main p,label {
   aspect-ratio: 1 / 1;
   border: 1px dashed red;
   border: 10px solid transparent;
+
 }
 
 .square svg {
@@ -370,3 +390,15 @@ footer hr {
   color: #ffffff;
 }
 
+.column-sect1 ul{
+  list-style: none;
+}
+
+.column-sect1 ul li{
+  display: flex;
+  gap: .3rem;
+}
+
+.border-black {
+  border: 1px solid black;
+}
