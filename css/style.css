@@ -228,6 +228,10 @@ main p,label {
   flex-basis: 35%;
 }
 
+.main-sect-4 {
+  padding-bottom: 0;
+}
+
 .btn-2 {
   background-color: var(--color-white);
   color: black;
@@ -237,6 +241,7 @@ main p,label {
 
 .squares-container {
   display: flex;
+  position: relative;
 }
 
 
@@ -251,7 +256,6 @@ main p,label {
   justify-content: center;
   width: 50%;
   aspect-ratio: 1 / 1;
-  border: 1px dashed red;
   border: 10px solid transparent;
 
 }
@@ -261,13 +265,31 @@ main p,label {
   height: auto;
 }
 
+.central-box {
+  background-color: #f5f5f5;
+}
+
+.banner-none {
+  width: calc(100% / 3);
+  height: 100%;
+  padding: 3rem;
+  display: none;
+}
+
 /*BOX SQUARE 1*/
 .designit {
-background-color: #a2d39b;
+background-color: #a2d39b
+
 }
 
 .designit:hover {
   border-color: #d1e9cd;
+}
+
+.designit:hover + .banner-none{
+  position: absolute;
+  left: calc(100% / 3);
+  display: block;
 }
 
 /*BOX SQUARE 2*/
@@ -279,6 +301,12 @@ background-color: #a2d39b;
   border-color: #6d4b58;
 }
 
+.asu:hover + .banner-none{
+  position: absolute;
+  left: calc(100% / 3);
+  display: block;
+}
+
 /*BOX SQUARE 3*/
 .florida {
   background-color: #0093ce;
@@ -286,6 +314,12 @@ background-color: #a2d39b;
   
 .florida:hover {
   border-color: #75b6cf
+}
+
+.florida:hover + .banner-none{
+  position: absolute;
+  left: calc(100% / 3);
+  display: block;
 }
 
 /*BOX SQUARE 4*/
@@ -297,6 +331,11 @@ background-color: #a2d39b;
   border-color: #ff7b7b;
 }
 
+.topps:hover + .banner-none{
+  position: absolute;
+  left: calc(100% / 3);
+  display: block;
+}
 /*BOX SQUARE 5*/
 .bicycle {
   background-color: #d5001f;
@@ -306,6 +345,11 @@ background-color: #a2d39b;
   border-color: #ca7380;
 }
 
+.bicycle:hover + .banner-none{
+  position: absolute;
+  left: calc(100% / 3);
+  display: block;
+}
 /*BOX SQUARE 6*/
 .hearst {
   background-color: #b4d0e7;
@@ -315,6 +359,11 @@ background-color: #a2d39b;
   border-color: #c5d9e7;
 }
 
+.hearst:hover + .banner-none{
+  position: absolute;
+  left: calc(100% / 3);
+  display: block;
+}
 /*BOX SQUARE 7*/
 .lonely {
   background-color: #0d2481;
@@ -324,6 +373,11 @@ background-color: #a2d39b;
   border-color: #404f8a;
 }
 
+.lonely:hover + .banner-none{
+  position: absolute;
+  left: calc(100% / 3);
+  display: block;
+}
 /*BOX SQUARE 7*/
 .clear {
   background-color: #ffd830;
@@ -333,6 +387,11 @@ background-color: #a2d39b;
   border-color: #ffeb93;
 }
 
+.clear:hover + .banner-none{
+  position: absolute;
+  left: calc(100% / 3);
+  display: block;
+}
 /*******************************************************************/
 
 footer ul {
